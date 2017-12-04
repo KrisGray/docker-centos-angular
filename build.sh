@@ -17,4 +17,4 @@ rpm -ivh epel-release-6-8.noarch.rpm
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
 source ~/.bashrc
 nvm install --lts
-npm install -g @angular/cli
+npm install -g @angular/cli --unsafe
